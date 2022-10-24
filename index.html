@@ -13,6 +13,24 @@
 <body>
   <h1>Notify Me</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dolorum ad, provident exercitationem delectus placeat sunt aliquid, at in quis odit ipsam quo commodi assumenda incidunt optio perferendis sint animi?</p>
+  <main>
+    <h1>Select the interval duration</h1>
+    <table>
+      <tr>
+        <th>hr</th>
+        <th>min</th>
+        <th>heading</th>
+        <th>message</th>
+      </tr>
+      <tr>
+        <td><input type="number" min="0" max="23" value="0"></td>
+        <td><input type="number" min="0" max="59" value="30"></td>
+        <td><input type="text" placeholder="Alert Heading"> </td>
+        <td><input type="text" placeholder="Alert Message"> </td>
+      </tr>
+    </table>
+    <button>Start</button>
+  </main>
   <script src="./app.js"></script>
 </body>
 </html>
