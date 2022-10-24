@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
 }
 
 :root {
@@ -11,19 +13,19 @@
 }
 
 body {
-  padding: 2rem;
-  font-family: 'Space Mono', monospace;
+  padding: 3rem;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
   min-height: 100vh;
   color: #fff;
-  text-transform: uppercase;
   background-image: 
     url('./axiom-pattern.png'),
     radial-gradient(circle at 100% 70%, rgb(6, 56, 122) 0%, rgba(255,0, 0, 0) 30%),
     radial-gradient(circle at top left, rgb(88, 19, 92), rgb(40, 21, 123))
   ;
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
@@ -31,4 +33,31 @@ h1 {
   letter-spacing: -2px;
   color: white;
   text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+main h1 {
+  margin: 5rem 0 2rem;
+  font-size: 3rem;
+}
+
+table {
+  margin: auto;
+  font-size: 2rem;
+}
+
+input {
+  font-size: 2rem;
+}
+
+button {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #000;
+  background: white;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
 }
